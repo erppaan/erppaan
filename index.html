@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Irfan</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+
+    /* ==== NAVBAR ==== */
+    .navbar {
+      background-color: #106ea1ff;
+      padding: 15px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar nav {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+
+    /* ==== ISI KONTEN ==== */
+    .content {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      padding: 120px 20px 50px;
+    }
+
+    h1 {
+      color: #5a5960ff;
+      font-size: 40px;
+    }
+
+    p {
+      color: #555;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    img {
+      margin-top: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      max-width: 100%;
+      height: auto;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    /* ==== TOMBOL WA ==== */
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #128C7E;
+    }
+
+    /* ==== SECTION TENTANG ==== */
+    #tentang {
+      background-color: #ffffff;
+      padding: 80px 20px;
+    }
+
+    #tentang h2 {
+      color: #2ecc9dff;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    #tentang p {
+      color: #666;
+      font-size: 18px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <div class="navbar">
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="https://wa.me/6285951676366" target="_blank">WhatsApp</a>
+    </nav>
+  </div>
+
+  <!-- ======= ISI KONTEN ======= -->
+  <div class="content" id="beranda">
+    <h1>HI EVERYONE!</h1>
+    <p>THIS IS MY FIRST SITE</p>
+    <img src="foto.jpg" alt="Foto Irfan" width="400">
+    <br>
+    <a href="https://wa.me/6285951676366" target="_blank" class="whatsapp-button">Chat Saya di WhatsApp</a>
+  </div>
+
+  <!-- ======= BAGIAN TENTANG ======= -->
+  <div id="tentang" class="content">
+    <h2>About Me</h2>
+    <p>Hi everyone, my name is Irfan Ali Wicaksono. I'm 18 years old, and I live in Bekasi, specifically in Jatimulya. I'm majoring in software engineering.</p>
+  </div>
+
+</body>
+</html>
